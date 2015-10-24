@@ -1,0 +1,14 @@
+{
+  "name": "chaku",
+  "description": "a truly anonymous newsapp",
+  "version": "0.0.1",
+  "private": true,
+  "main"   : "main.js",
+  "scripts":{
+    "start":"electron ."
+  },
+  "dependencies"  : {
+    "webtorrent"    : "*",
+    "node-markdown" : "*"
+  }
+}
